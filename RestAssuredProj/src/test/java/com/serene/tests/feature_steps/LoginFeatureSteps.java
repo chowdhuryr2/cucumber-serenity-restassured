@@ -1,4 +1,4 @@
-package com.serene.tests.features.steps;
+package com.serene.tests.feature_steps;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,12 +12,14 @@ import net.thucydides.core.annotations.Steps;
 
 import org.junit.runner.RunWith;
 
+import com.serene.tests.api_steps.LoginAPISteps;
+
 
 
 @RunWith(SerenityRunner.class)
 
 
-public class LoginStepDefn {
+public class LoginFeatureSteps {
 	
 
 	@Before

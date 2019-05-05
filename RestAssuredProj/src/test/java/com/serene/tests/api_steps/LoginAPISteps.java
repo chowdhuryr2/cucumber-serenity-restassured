@@ -1,4 +1,4 @@
-package com.serene.tests.features.steps;
+package com.serene.tests.api_steps;
 
 import org.junit.Assert;
 import io.restassured.path.json.JsonPath;
